@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/uniqueInfo/static/css/main.2e539356.chunk.css",
+    "main.js": "/uniqueInfo/static/js/main.7a4153ab.chunk.js",
+    "main.js.map": "/uniqueInfo/static/js/main.7a4153ab.chunk.js.map",
+    "runtime-main.js": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js",
+    "runtime-main.js.map": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js.map",
+    "static/css/2.150d169a.chunk.css": "/uniqueInfo/static/css/2.150d169a.chunk.css",
+    "static/js/2.8599867a.chunk.js": "/uniqueInfo/static/js/2.8599867a.chunk.js",
+    "static/js/2.8599867a.chunk.js.map": "/uniqueInfo/static/js/2.8599867a.chunk.js.map",
+    "index.html": "/uniqueInfo/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/uniqueInfo/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.2e539356.chunk.css.map": "/uniqueInfo/static/css/main.2e539356.chunk.css.map",
+    "static/js/2.8599867a.chunk.js.LICENSE.txt": "/uniqueInfo/static/js/2.8599867a.chunk.js.LICENSE.txt",
+    "static/media/Apple-1.0592f859.png": "/uniqueInfo/static/media/Apple-1.0592f859.png",
+    "static/media/apple.df881029.png": "/uniqueInfo/static/media/apple.df881029.png",
+    "static/media/asus.cfa619ec.png": "/uniqueInfo/static/media/asus.cfa619ec.png",
+    "static/media/cpu-2.07b351a0.jpg": "/uniqueInfo/static/media/cpu-2.07b351a0.jpg",
+    "static/media/dell.def93235.png": "/uniqueInfo/static/media/dell.def93235.png",
+    "static/media/hp-3.3f9b2ca4.jpg": "/uniqueInfo/static/media/hp-3.3f9b2ca4.jpg",
+    "static/media/hp.e6aeb265.png": "/uniqueInfo/static/media/hp.e6aeb265.png",
+    "static/media/keyboard-4.56ac65b0.jpg": "/uniqueInfo/static/media/keyboard-4.56ac65b0.jpg",
+    "static/media/lenovo.0933a675.png": "/uniqueInfo/static/media/lenovo.0933a675.png",
+    "static/media/mouse-4.508fcd60.jpg": "/uniqueInfo/static/media/mouse-4.508fcd60.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b62c2d0b.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.8599867a.chunk.js",
+    "static/css/main.2e539356.chunk.css",
+    "static/js/main.7a4153ab.chunk.js"
+  ]
+}
