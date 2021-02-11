@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uniqueInfo/static/css/main.1124f0ac.chunk.css",
-    "main.js": "/uniqueInfo/static/js/main.7a4153ab.chunk.js",
-    "main.js.map": "/uniqueInfo/static/js/main.7a4153ab.chunk.js.map",
+    "main.css": "/uniqueInfo/static/css/main.ab27dee7.chunk.css",
+    "main.js": "/uniqueInfo/static/js/main.22cff0fc.chunk.js",
+    "main.js.map": "/uniqueInfo/static/js/main.22cff0fc.chunk.js.map",
     "runtime-main.js": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js",
     "runtime-main.js.map": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js.map",
     "static/css/2.150d169a.chunk.css": "/uniqueInfo/static/css/2.150d169a.chunk.css",
@@ -10,13 +10,19 @@
     "static/js/2.8599867a.chunk.js.map": "/uniqueInfo/static/js/2.8599867a.chunk.js.map",
     "index.html": "/uniqueInfo/index.html",
     "static/css/2.150d169a.chunk.css.map": "/uniqueInfo/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.1124f0ac.chunk.css.map": "/uniqueInfo/static/css/main.1124f0ac.chunk.css.map",
+    "static/css/main.ab27dee7.chunk.css.map": "/uniqueInfo/static/css/main.ab27dee7.chunk.css.map",
     "static/js/2.8599867a.chunk.js.LICENSE.txt": "/uniqueInfo/static/js/2.8599867a.chunk.js.LICENSE.txt",
     "static/media/Apple-1.0592f859.png": "/uniqueInfo/static/media/Apple-1.0592f859.png",
+    "static/media/Apple-2.b91c942f.jpg": "/uniqueInfo/static/media/Apple-2.b91c942f.jpg",
+    "static/media/Apple-3.fcb2e679.jpg": "/uniqueInfo/static/media/Apple-3.fcb2e679.jpg",
+    "static/media/Apple-4.8f2991be.jpg": "/uniqueInfo/static/media/Apple-4.8f2991be.jpg",
+    "static/media/Apple-6.7143c1b8.jpg": "/uniqueInfo/static/media/Apple-6.7143c1b8.jpg",
     "static/media/apple.df881029.png": "/uniqueInfo/static/media/apple.df881029.png",
     "static/media/asus.cfa619ec.png": "/uniqueInfo/static/media/asus.cfa619ec.png",
     "static/media/cpu-2.07b351a0.jpg": "/uniqueInfo/static/media/cpu-2.07b351a0.jpg",
     "static/media/dell.def93235.png": "/uniqueInfo/static/media/dell.def93235.png",
+    "static/media/hp-1.b6d6a13e.png": "/uniqueInfo/static/media/hp-1.b6d6a13e.png",
+    "static/media/hp-2.a11a41e3.jpg": "/uniqueInfo/static/media/hp-2.a11a41e3.jpg",
     "static/media/hp-3.3f9b2ca4.jpg": "/uniqueInfo/static/media/hp-3.3f9b2ca4.jpg",
     "static/media/hp.e6aeb265.png": "/uniqueInfo/static/media/hp.e6aeb265.png",
     "static/media/keyboard-4.56ac65b0.jpg": "/uniqueInfo/static/media/keyboard-4.56ac65b0.jpg",
@@ -27,7 +33,7 @@
     "static/js/runtime-main.b62c2d0b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.8599867a.chunk.js",
-    "static/css/main.1124f0ac.chunk.css",
-    "static/js/main.7a4153ab.chunk.js"
+    "static/css/main.ab27dee7.chunk.css",
+    "static/js/main.22cff0fc.chunk.js"
   ]
 }
