@@ -1,0 +1,135 @@
+:root{
+    --primary_color:#0d0d26;
+    --white:#fff;
+    --black:#000;
+    --font_weight_regular:400;
+    --font_weight_medium:500;
+    --font_weight_semibold:600;
+    --font_weight_bold:700;
+  }
+
+@media screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+        padding: 3% 5%;
+        background-color: var(--white);
+    }
+    .navbar-brand{
+        color:var(--primary_color) ;
+        border: none;
+    }
+    .navbar-nav{
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-nav .nav-link{
+        color: var(--primary_color);
+        border: none;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        font-weight: var(--font_weight_medium);
+        letter-spacing: 2px;
+    }
+    .navbar-collapse.show{
+        height: 22rem;
+    }
+    .search-container{
+        /* position: relative; */
+        /* display: grid;
+        place-items:center; */
+    }
+    .navbar span{
+        width: 2.4rem;
+        height: 2.2rem;
+        background-color: white;
+        color: #000;
+    }
+    .navbar-brand{
+        font-size: 1.4rem;
+    }
+    .container-home{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container-home .left{
+        width: 100%;
+    }
+    .container-home .right{
+        display: none;
+    }
+    .container-home .container{
+        margin: 0;
+    }
+    .container-home .container .start{
+        height: 100%;
+        padding: 6%;
+        position: absolute;
+        margin-top: 100%;
+    }
+    .container-home .container .start h3{
+        font-size: 1.4rem;
+    }
+    .container-home .container .end{
+        padding: 30% 5% 3% 5%;
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+    .container-home .container img{
+        width: 20rem;
+        display: block;
+        margin: auto;
+    }
+    .backtext h1{
+        font-size: 6rem;
+    }
+    .categories .container-fluid{
+        padding-top: 20%;
+    }
+    .heading h4{
+        font-size: 1.2rem;
+    }
+    .heading p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .products .card-body{
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .products .card h5{
+        font-size: 1rem;
+    }
+    .products .card h6{
+        font-size: 0.8rem;
+    }
+    .products .card i{
+        font-size: 1.5rem;
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .new-arrive .card{
+        margin: 0;
+        margin-bottom: 10%;
+    }
+    .new-arrive .card .btn{
+        width: 7rem;
+        font-size: 0.9rem;
+    }
+    .best-offer .container-fluid .row{
+        height: 23rem;
+    }
+    .best-offer .container-fluid .overlay h4{
+        font-size: 1.2rem;
+    }
+
+    .best-offer .container-fluid .overlay p{
+        font-size: 1rem;
+        width: 90%;
+    }
+}
