@@ -3,6 +3,7 @@ import {NavLink} from 'react-router-dom'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {VscAccount} from 'react-icons/vsc'
 import {AiOutlineBars} from 'react-icons/ai'
+import Fade from 'react-reveal/Fade';
 
 const Header = () => {
     window.addEventListener("scroll",function(){
@@ -39,6 +40,7 @@ const Header = () => {
 
     return (
         <div>
+            <Fade top>
             <nav className="navbar navbar-expand-lg">
                 <NavLink className="navbar-brand" to='/'>UniqueInfo</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,6 +65,7 @@ const Header = () => {
                     </form>                 
                 </div> 
             </nav>
+            </Fade>
         </div>
     )
 }

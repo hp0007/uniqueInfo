@@ -1,10 +1,13 @@
 import React from 'react'
 import Button from '../components/Button'
 import Apple from '../images/laptops/Apple-1.png'
+import Zoom from 'react-reveal/Zoom'
 
 const Card = (props) => {
     return (
-                <div className="col-6 col-sm-6 col-md-3 col-lg-3 text-center">    
+        <>
+            <Zoom>
+                <div className="col-6 col-sm-6 col-md-3 col-lg-3 text-center">   
                     <div class="card pt-2 pb-2" key={props.value.id}>
                         <img class="card-img-top" src={props.value.path} alt="Card image cap" />
                         <div class="card-body">
@@ -15,6 +18,8 @@ const Card = (props) => {
                         </div>
                     </div>
                 </div>
+            </Zoom>
+        </>
     )
 }
 
