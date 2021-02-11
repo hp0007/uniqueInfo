@@ -27,9 +27,29 @@ import lenovo from '../images/logos/lenovo.png'
 import sony from '../images/logos/sony.png'
 import apple from '../images/logos/apple.png'
 import Slider from '../components/Slider'
+import pc_1 from '../images/laptops/Apple-1.png'
+import pc_2 from '../images/laptops/Apple-2.jpg'
+import pc_3 from '../images/laptops/Apple-3.jpg'
+import pc_4 from '../images/laptops/Apple-4.jpg'
+import pc_5 from '../images/laptops/Apple-5.jpeg'
+import pc_6 from '../images/laptops/Apple-6.jpg'
+import pc_7 from '../images/laptops/hp-1.png'
+import pc_8 from '../images/laptops/hp-2.jpg'
+import pc_9 from '../images/laptops/hp-3.jpg'
 
 
 const Home = () => {
+    let cardContent = {
+        newArri: [
+          { id: 1, name: "First",subtitle:'Subtitle', path: pc_3, price: "$1500" },
+          { id: 2, name: "Second",subtitle:'Subtitle', path: pc_3, price: "$1200" },
+          { id: 3, name: "Third",subtitle:'Subtitle', path: pc_3, price: "$1600" },
+          { id: 4, name: "Four",subtitle:'Subtitle', path: pc_3, price: "$900" },
+          { id: 5, name: "Five",subtitle:'Subtitle', path: pc_3, price: "$700" },
+          { id: 6, name: "Six",subtitle:'Subtitle', path: pc_3, price: "$1250" },
+          { id: 7, name: "Seven",subtitle:'Subtitle', path: pc_3, price: "1155" },
+          { id: 8, name: "Eight",subtitle:'Subtitle', path: pc_3, price: "$777" }]
+    }
     let keyboard = <GoKeyboard /> , mouse = <CgMouse /> , cpu = <FiCpu /> , laptop = <BsLaptop /> ,
     cctv = <BiCctv /> , headphone = <FaHeadphonesAlt />
 
@@ -96,8 +116,7 @@ const Home = () => {
         <div className='new-arrive'>        
             <div className='container'>
             <Heading title='New Arrival' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#000'/>
-                <Cards />
-                <Cards />                                    
+                <Cards datafirst={cardContent.newArri}/>                               
             </div>
         </div>
 
