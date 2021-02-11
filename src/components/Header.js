@@ -5,6 +5,10 @@ import {VscAccount} from 'react-icons/vsc'
 import {AiOutlineBars} from 'react-icons/ai'
 
 const Header = () => {
+    window.addEventListener("scroll",function(){
+        var header = document.querySelector(".navbar");
+        header.classList.toggle("sticky",window.scrollY > 0);
+    })
     const navdata = [
         {
             id:1,

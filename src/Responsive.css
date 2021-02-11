@@ -17,6 +17,9 @@
         padding: 3% 5%;
         background-color: var(--white);
     }
+    .navbar.sticky{
+        background-color: var(--white);
+    }
     .navbar-brand{
         color:var(--primary_color) ;
         border: none;

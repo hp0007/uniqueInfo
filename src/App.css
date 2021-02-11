@@ -24,9 +24,18 @@ body{
 
 .navbar{
   z-index: 1;
-  position: absolute;
+  position: fixed;
   width: 100%;
   padding: 1.5% 2%;
+  transition: .5s;
+}
+.navbar.sticky{
+  background-color: var(--primary_color);
+  color: var(--primary_color);
+}
+.navbar.sticky + .account{
+  color: var(--white);
+  border-radius: 20%;
 }
 .navbar-nav{
   margin: 0 20%;
@@ -119,6 +128,9 @@ body{
   font-weight: 500;
   color: #0d0d26;
   margin: 0 5% 0 -10%;
+  background-color: var(--white);
+  border-radius: 50%;
+  border: none;
 }
 .account:hover{
   cursor: pointer;
