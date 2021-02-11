@@ -73,7 +73,6 @@ body{
   border: 3px solid var(--primary_color);
   cursor: pointer;
   background: var(--white);
-  margin-left: 5%;
 }
 .search-box + label .search-icon {
   color:var(--primary_color);
@@ -119,6 +118,7 @@ body{
   font-size: 2.4rem;
   font-weight: 500;
   color: #0d0d26;
+  margin: 0 5% 0 -10%;
 }
 .account:hover{
   cursor: pointer;
@@ -317,6 +317,7 @@ body{
   padding: 2% 0;
   background-color: var(--primary_color);
   width: 20rem;
+  color: var(--white);
 }
 .footer .container input:focus{
   color: var(--white);

@@ -23,6 +23,7 @@
     }
     .navbar-nav{
         margin: 0;
+        padding-top: 12%;
         text-align: center;
     }
     .navbar-nav .nav-item{
@@ -37,7 +38,7 @@
         letter-spacing: 2px;
     }
     .navbar-collapse.show{
-        height: 22rem;
+        height: 25rem;
     }
     .search-container{
         left: 0;
@@ -152,5 +153,12 @@
     .best-offer .container-fluid .overlay p{
         font-size: 1rem;
         width: 90%;
+    }
+    .footer .container i{
+        padding-left: 5%;
+    }
+    .footer .container input{
+        padding: 2% 2%;
+        width: 100%;
     }
 }
