@@ -67,20 +67,22 @@ body{
 }
 .search-box {
   transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
-  width: 40px;
-  height: 40px;
+  width: 2.6rem;
+  height: 2.6rem;
   border-radius: 20px;
-  border: none;
+  border: 3px solid var(--primary_color);
   cursor: pointer;
-  background: var(--primary_color);
+  background: var(--white);
+  margin-left: 5%;
 }
 .search-box + label .search-icon {
-  color:var(--white);
+  color:var(--primary_color);
+  font-size: 1.4rem;
+  margin-left: -15%;
 }
 .search-box:hover {
-  color: white;
+  color: var(--primary_color);
   background: #c8c8c8;
-  box-shadow: 0 0 0 5px #3d4752;
 }
 .search-box:hover + label .search-icon {
   color: white;
@@ -92,7 +94,7 @@ body{
   box-shadow: none;
   padding-left: 15px;
   cursor: text;
-  width: 250px;
+  width: 14rem;
   border-radius: auto;
   background: #ebebeb;
   color: black;
@@ -114,7 +116,7 @@ body{
 }
 
 .account{
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   font-weight: 500;
   color: #0d0d26;
 }

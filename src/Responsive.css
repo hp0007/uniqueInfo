@@ -25,6 +25,9 @@
         margin: 0;
         text-align: center;
     }
+    .navbar-nav .nav-item{
+        margin: 0;
+    }
     .navbar-nav .nav-link{
         color: var(--primary_color);
         border: none;
@@ -37,11 +40,29 @@
         height: 22rem;
     }
     .search-container{
-        /* position: relative; */
-        /* display: grid;
-        place-items:center; */
+        left: 0;
+        text-align: center;
     }
-    .navbar span{
+    .search-container .search-box {
+        background: var(--white);
+        /* color: var(--primary_color); */
+    }
+    .search-box + label .search-icon {
+        color:var(--primary_color);
+        font-size: 1.2rem;
+        margin-left: -15%;
+    }
+    .search-box:focus {
+        background-color: #ededed;
+    }
+    .search-box:focus + label .search-icon {
+        color: #000;
+        background-color: #ededed;
+    }
+    .account{
+        margin-left: 4%;
+    }   
+     .navbar span{
         width: 2.4rem;
         height: 2.2rem;
         background-color: white;

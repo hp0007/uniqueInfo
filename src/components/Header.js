@@ -2,6 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 import {AiOutlineSearch} from 'react-icons/ai'
 import {VscAccount} from 'react-icons/vsc'
+import {AiOutlineBars} from 'react-icons/ai'
 
 const Header = () => {
     const navdata = [
@@ -37,7 +38,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg">
                 <NavLink className="navbar-brand" to='/'>UniqueInfo</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon" />
+                    <AiOutlineBars className="navbar-toggler-icon"/>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
@@ -48,11 +49,11 @@ const Header = () => {
                                         <NavLink className="nav-link" key={data.id} to={data.path} activeClassName='active'>{data.name}</NavLink>
                                     </li>
                                 )           
-                            })
+                            })  
                         }
                     </ul>
-                    <form class="search-container mr-2" action="//llamaswill.tumblr.com/search">
-                        <VscAccount className='account mr-3' />
+                    <form class="search-container" action="//llamaswill.tumblr.com/search">
+                        <VscAccount className='account' />
                         <input id="search-box" type="text" class="search-box" name="q" />
                         <label for="search-box"><span class="search-icon"><AiOutlineSearch /></span></label>                        
                     </form>                 
