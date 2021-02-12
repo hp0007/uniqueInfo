@@ -3,10 +3,8 @@ import Zoom from 'react-reveal/Zoom';
 
 const OfferCard = (props) => {
     return (
-        <div>
-            <Zoom>
-            <img src={props.image}/>            
-            </Zoom>
+        <div>        
+            <img src={props.image}/>                        
         </div>
     )
 }

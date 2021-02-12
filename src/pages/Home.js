@@ -28,8 +28,7 @@ import sony from '../images/logos/sony.png'
 import apple from '../images/logos/apple.png'
 import Slider from '../components/Slider'
 import pc_3 from '../images/laptops/Apple-3.jpg'
-import Bounce from 'react-reveal/Bounce';
-import Zoom from 'react-reveal/Zoom';
+
 
  
 
@@ -58,18 +57,14 @@ const Home = () => {
             <div className='right'></div>
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 start">
-                        <Bounce left>
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 start"> 
                             <h4>Apple introduces 16-inch MacBook Pro</h4>
                             <h3>Stunnigly small.<br/>Masterfully Designed.</h3>
                             <p>All-New MacBook Pro Features an Immersive 16-Inch Retina Display, Up to 80 Percent Faster Performance and a New Magic Keyboard </p>
                             <button className='btn'>Lern More<BsArrowRight className='arrow' /></button>
-                        </Bounce>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 end">
-                        <Zoom clear>
-                            <img src={main_img} />
-                        </Zoom>
+                            <img src={main_img} />                 
                     </div>
                 </div>
             </div>
@@ -82,39 +77,28 @@ const Home = () => {
                     <div className="container">
                         <Heading title='Categories' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#fff'/>
                         <div className="row">            
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                <Zoom clear>
-                                    <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Sub Title'/>
-                                </Zoom>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
+                                    <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Sub Title'/>                               
                             </div>
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                            <Zoom clear>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                            
                                 <SimpleCard icon={mouse} title='Mouse' subTitle='Sub Title'/>
-                                </Zoom>
+                                
                             </div>               
                         </div>
                         <div className="row"> 
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                <Zoom clear>
-                                    <SimpleCard icon={cpu} title='CPU' subTitle='Sub Title'/>
-                                </Zoom>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
+                                    <SimpleCard icon={cpu} title='CPU' subTitle='Sub Title'/>                               
                             </div>            
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                <Zoom clear>
-                                    <SimpleCard icon={headphone} title='Headsphones' subTitle='Sub Title'/>
-                                </Zoom>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
+                                    <SimpleCard icon={headphone} title='Headsphones' subTitle='Sub Title'/>                        
                             </div>             
                         </div>
                         <div className="row">            
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                <Zoom clear>
-                                    <SimpleCard icon={cctv} title='CCTV Camera' subTitle='Sub Title'/>
-                                </Zoom>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
+                                    <SimpleCard icon={cctv} title='CCTV Camera' subTitle='Sub Title'/>                                
                             </div>                           
-                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-                                <Zoom clear>
-                                    <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='Sub Title'/>
-                                </Zoom>
+                            <div className="col-12 col-sm-12 col-md-6 col-lg-6">                        
+                                    <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='Sub Title'/>                               
                             </div>                
                         </div>
                     </div>
@@ -181,45 +165,29 @@ const Home = () => {
             </div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={apple}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={apple}/>                       
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={hp}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={hp}/>                       
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={dell}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={dell}/>                      
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={asus}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                       
+                        <img src={asus}/>                       
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={lenovo}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={lenovo}/>                       
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={philips}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={philips}/>                        
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={jbl}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={jbl}/>                        
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">
-                        <Zoom>
-                        <img src={sony}/>
-                        </Zoom>
+                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                        <img src={sony}/>                        
                     </div>
                 </div>
             </div>
