@@ -53,8 +53,8 @@
     }
     .search-box + label .search-icon {
         color:var(--primary_color);
-        font-size: 1.2rem;
-        margin-left: -15%;
+        font-size: 1rem;
+        margin-left: 20%;
     }
     .search-box:focus {
         background-color: #ededed;

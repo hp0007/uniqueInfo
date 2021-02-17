@@ -9,6 +9,13 @@ const Header = () => {
     window.addEventListener("scroll",function(){
         var header = document.querySelector(".navbar");
         header.classList.toggle("sticky",window.scrollY > 0);
+        var acc = document.getElementById('account')
+        if(header.classList.contains('sticky')){
+            acc.style.color = '#fff';
+        }
+        else{
+            acc.style.color = '#0d0d26'
+        }
     })
     const navdata = [
         {
@@ -59,7 +66,7 @@ const Header = () => {
                         }
                     </ul>
                     <form class="search-container" action="//llamaswill.tumblr.com/search">
-                        <VscAccount className='account' />
+                        <VscAccount className='account' id='account'/>
                         <input id="search-box" type="text" class="search-box" name="q" />
                         <label for="search-box"><span class="search-icon"><AiOutlineSearch /></span></label>                        
                     </form>                 

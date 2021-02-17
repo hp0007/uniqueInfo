@@ -3,6 +3,7 @@ import {AiOutlineFacebook} from 'react-icons/ai'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {FiTwitter} from 'react-icons/fi'
 import Input from '../components/Input'
+import Button from '../components/Button'
 
 const Footer = () => {
     return (
@@ -19,7 +20,10 @@ const Footer = () => {
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <p>Get In Touch</p>
-                        <Input typ="email"  place="Enter your email address"/>
+                        <div className="content d-flex">
+                            <Input typ="email"  place="Enter your email address"/>
+                            <Button text='Send'/>
+                        </div>
                     </div>
                 </div>
             </div>
