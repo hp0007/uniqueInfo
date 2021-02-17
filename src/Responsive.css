@@ -157,17 +157,23 @@
         height: 23rem;
     }
     .best-offer .container-fluid .overlay h4{
-        font-size: 1.3rem;
-        line-height: 1rem;
+        font-size: 1rem;
+        line-height: 0.7rem;
     }
 
     .best-offer .container-fluid .overlay p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         width: 90%;
-        line-height: 0rem;
+        line-height: 1rem;
+    }
+    .footer .container h4{
+        font-size: 1.4rem;
+    }
+    .footer .container p{
+        font-size: 1rem;
     }
     .footer .container i{
-        padding-left: 5%;
+        padding-left: 4%;
     }
     .footer .container input{
         padding: 2% 2%;

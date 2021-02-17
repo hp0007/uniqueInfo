@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <p>Get In Touch</p>
-                        <Input typ="email" val="" place="Enter your email address"/>
+                        <Input typ="email"  place="Enter your email address"/>
                     </div>
                 </div>
             </div>

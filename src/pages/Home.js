@@ -90,7 +90,7 @@ const Home = () => {
                                     <SimpleCard icon={cpu} title='CPU' subTitle='Sub Title'/>                               
                             </div>            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
-                                    <SimpleCard icon={headphone} title='Headsphones' subTitle='Sub Title'/>                        
+                                    <SimpleCard icon={headphone} title='Headphones' subTitle='Sub Title'/>                        
                             </div>             
                         </div>
                         <div className="row">            
