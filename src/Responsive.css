@@ -41,32 +41,10 @@
         letter-spacing: 2px;
     }
     .navbar-collapse.show{
-        height: 25rem;
+        height: 26rem;
     }
-    .search-container{
-        left: 0;
-        text-align: center;
-    }
-    .search-container .search-box {
-        background: var(--white);
-        /* color: var(--primary_color); */
-    }
-    .search-box + label .search-icon {
-        color:var(--primary_color);
-        font-size: 1rem;
-        margin-left: 20%;
-    }
-    .search-box:focus {
-        background-color: #ededed;
-    }
-    .search-box:focus + label .search-icon {
-        color: #000;
-        background-color: #ededed;
-    }
-    .account{
-        margin-left: 4%;
-    }   
-     .navbar span{
+    
+    .navbar span{
         width: 2.4rem;
         height: 2.2rem;
         background-color: white;
@@ -74,6 +52,13 @@
     }
     .navbar-brand{
         font-size: 1.4rem;
+    }
+    .form-inline .form-control{
+        width: 86%;
+    }
+    .account{
+        color: var(--primary_color) !important;
+        margin-left: 4%;
     }
     .container-home{
         height: 100%;

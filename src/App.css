@@ -56,6 +56,7 @@ body{
   transition: .2s;
   position: relative;
   border-bottom: 2px solid var(--primary_color);
+  transition: .5s;
 }
 
 .nav-link:hover{
@@ -66,68 +67,17 @@ body{
 .active{
   border-bottom: 2px solid var(--primary_color);
 }
-.search-container{
-  position: absolute;
-  z-index: 11;
-  right: 0;
-}
-.search-box {
-  transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
-  width: 2.01rem;
-  height: 2.01rem;
-  border-radius: 20px;
-  border: 2px solid var(--primary_color);
-  cursor: pointer;
-}
-.search-box + label .search-icon {
-  color:var(--primary_color);
-  font-size: 1.2rem;
-  margin-left: 10%;
-}
-.search-box:hover {
-  color: var(--primary_color);
-  background: var(--primary_color);
-}
-.search-box:hover + label .search-icon {
-  color: white;
-}
-.search-box:focus {
-  transition: width 0.6s cubic-bezier(0, 1.22, 0.66, 1.39), border-radius 0.6s, background 0.6s;
-  border: none;
-  outline: none;
+.form-inline .form-control{
+  outline: none !important;
   box-shadow: none;
-  padding-left: 15px;
-  cursor: text;
-  width: 14rem;
-  border-radius: auto;
-  background: #ebebeb;
-  color: black;
 }
-.search-box:focus + label .search-icon {
-  color: black;
-}s
-
-#search-submit {
-  position: relative;
-  left: -5000px;
-}
-
-.search-icon {
-  position: relative;
-  left: -28px;
-  color: white;
-  cursor: pointer;
-}
-
 .account{
-  font-size: 1.9rem;
-  color: #0d0d26;
-  margin: 0 5% 0 -10%;
-  border-radius: 50%;
-  border: none;
-}
-.account:hover{
+  font-size: 2rem;
   cursor: pointer;
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }
 
 /* Banner */
@@ -157,7 +107,13 @@ body{
   padding-top: 9%;
 }
 .container-home .container .end{
-  padding-top: 3%;
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-home .container .end img{
+
 }
 .container-home .container .start h3,h4,p{
     width: 100%;

@@ -1,21 +1,19 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import {AiOutlineSearch} from 'react-icons/ai'
-import {VscAccount} from 'react-icons/vsc'
 import {AiOutlineBars} from 'react-icons/ai'
 import Fade from 'react-reveal/Fade';
+import {RiLoginCircleLine} from 'react-icons/ri'
 
 const Header = () => {
     window.addEventListener("scroll",function(){
         var header = document.querySelector(".navbar");
         header.classList.toggle("sticky",window.scrollY > 0);
-        var acc = document.getElementById('account')
-        if(header.classList.contains('sticky')){
-            acc.style.color = '#fff';
-        }
-        else{
-            acc.style.color = '#0d0d26'
-        }
+        let acc = document.getElementById('account');
+       if(window.scrollY > 0){
+            acc.style.color = "#fff"
+       }else{
+           acc.style.color = "#0d0d26"
+       }
     })
     const navdata = [
         {
@@ -65,11 +63,10 @@ const Header = () => {
                             })  
                         }
                     </ul>
-                    <form class="search-container" action="//llamaswill.tumblr.com/search">
-                        <VscAccount className='account' id='account'/>
-                        <input id="search-box" type="text" class="search-box" name="q" />
-                        <label for="search-box"><span class="search-icon"><AiOutlineSearch /></span></label>                        
-                    </form>                 
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />                        
+                        <RiLoginCircleLine className="account" id="account"/>
+                    </form>            
                 </div> 
             </nav>
             </Fade>
