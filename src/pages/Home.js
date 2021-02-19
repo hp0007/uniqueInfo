@@ -50,12 +50,11 @@ const Home = () => {
     return (
         <>
         {/* Banner Section */}
-
+        <Header />
         <div className='container-home'>
-            <Header />
             <div className='left'></div>
             <div className='right'></div>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6 start"> 
                             <h4>Apple introduces 16-inch MacBook Pro</h4>

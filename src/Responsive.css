@@ -8,6 +8,11 @@
     --font_weight_bold:700;
   }
 
+@media screen and (min-width:1900px){
+    .container-home .container .start h4{
+        font-size: 3rem;
+    }
+}
 @media screen and (max-width:600px){
     body{
         overflow-x: hidden;
