@@ -68,8 +68,8 @@
     .container-home{
         height: 100%;
         width: 100%;
-        margin: 0;
-        padding: 0;
+        /* margin: 0;
+        padding: 0; */
     }
     .container-home .left{
         width: 100%;
@@ -77,25 +77,27 @@
     .container-home .right{
         display: none;
     }
-    .container-home .container{
-        margin: 0;
+    .container-home .container-fluid{
     }
-    .container-home .container .start{
+    .container-home .container-fluid .start{
         height: 100%;
+        width: 100%;
         padding: 6%;
         position: absolute;
-        margin-top: 100%;
     }
-    .container-home .container .start h3{
+    .container-home .container-fluid .start h3{
         font-size: 1.4rem;
     }
-    .container-home .container .end{
-        padding: 30% 5% 3% 5%;
+    .container-home .container-fluid .end{
+        width: 100%;
+        margin-top: -65%;
+        text-align: center;
+        padding: 0% 5% 3% 5%;
         position: absolute;
         top: 0;
         height: 100%;
     }
-    .container-home .container img{
+    .container-home .container-fluid img{
         width: 20rem;
         display: block;
         margin: auto;
