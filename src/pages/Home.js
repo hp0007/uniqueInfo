@@ -42,14 +42,14 @@ import pc_8 from '../images/laptops/laptop/apple-1.png'
 const Home = () => {
     let cardContent = {
         newArri: [
-          { id: 1, name: "ASUS VivoBook 14",subtitle:' Intel Core i3-1005G1 10th Gen 14-inch FHD', path: pc_1, price: "$1500" },
-          { id: 2, name: "HP Notebook",subtitle:'Pentium Gold 6405U Processor Entry Level 15.6-inch FHD', path: pc_2, price: "$1200" },
-          { id: 3, name: "Apple MacBook Air",subtitle:'13-inch 10th-Generation Intel Core i3 Processor', path: pc_3, price: "$1600" },
-          { id: 4, name: "Lenovo IdeaPad",subtitle:'Slim 3i Intel Celeron N4020 15.6-inch HD Thin', path: pc_4, price: "$900" },
-          { id: 5, name: "Lenovo Ideapad",subtitle:'ntel Core i3 7th Gen 15.6 inch Full HD Thin', path: pc_5, price: "$700" },
-          { id: 6, name: "ASUS VivoBook Ultra",subtitle:'Intel Core i3-1005G1 10th Gen, 14-Inch FHD', path: pc_6, price: "$1250" },
-          { id: 7, name: "HP Pavilion 11th",subtitle:'Core i5 Thin & Light 14-Inch FHD Laptop', path: pc_7, price: "1155" },
-          { id: 8, name: "Apple MacBook",subtitle:'Intel Core i3-1005G1 10th Gen 14-inch FHD', path: pc_8, price: "$777" }]
+          { id: 1, name: "ASUS VivoBook 14",subtitle:' Intel Core i3-1005G1 10th Gen 14-inch FHD', path: pc_1, price: "Rs.29,000" },
+          { id: 2, name: "HP Notebook",subtitle:'Pentium Gold 6405U Processor Entry Level 15.6-inch FHD', path: pc_2, price: "Rs.37,550" },
+          { id: 3, name: "Apple MacBook Air",subtitle:'13-inch 10th-Generation Intel Core i3 Processor', path: pc_3, price: "Rs.82,545" },
+          { id: 4, name: "Lenovo IdeaPad",subtitle:'Slim 3i Intel Celeron N4020 15.6-inch HD Thin', path: pc_4, price: "Rs.35,400" },
+          { id: 5, name: "Lenovo Ideapad",subtitle:'ntel Core i3 7th Gen 15.6 inch Full HD Thin', path: pc_5, price: "Rs.31,200" },
+          { id: 6, name: "ASUS VivoBook Ultra",subtitle:'Intel Core i3-1005G1 10th Gen, 14-Inch FHD', path: pc_6, price: "Rs.30,500" },
+          { id: 7, name: "HP Pavilion 11th",subtitle:'Core i5 Thin & Light 14-Inch FHD Laptop', path: pc_7, price: "Rs.45,240" },
+          { id: 8, name: "Apple MacBook",subtitle:'Intel Core i3-1005G1 10th Gen 14-inch FHD', path: pc_8, price: "Rs.87,250" }]
     }
     let keyboard = <GoKeyboard /> , mouse = <CgMouse /> , cpu = <FiCpu /> , laptop = <BsLaptop /> ,
     cctv = <BiCctv /> , headphone = <FaHeadphonesAlt />

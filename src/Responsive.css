@@ -132,15 +132,19 @@
         padding-bottom: 12%;
     }
     .new-arrive .card{
-        height: 18rem;
+        height: 24rem;
         margin: 0;
         margin-bottom: 10%;
     }
+    
     .new-arrive .card .card-title{
         font-size: 1.1rem;
+        height: 3rem;
+        line-height: 1.2rem;
     }
     .new-arrive .card .card-text{
         font-size: 0.9rem;
+        height: 5.5rem;
     }
     .new-arrive .card .btn{
         width: 7rem;
