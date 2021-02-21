@@ -132,9 +132,8 @@
         padding-bottom: 12%;
     }
     .new-arrive .card{
-        height: 24rem;
+        height: 100%;
         margin: 0;
-        margin-bottom: 10%;
     }
     
     .new-arrive .card .card-title{
