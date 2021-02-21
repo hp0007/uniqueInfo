@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/uniqueInfo/static/css/main.c9786bac.chunk.css",
-    "main.js": "/uniqueInfo/static/js/main.31cbb440.chunk.js",
-    "main.js.map": "/uniqueInfo/static/js/main.31cbb440.chunk.js.map",
+    "main.css": "/uniqueInfo/static/css/main.904ef49c.chunk.css",
+    "main.js": "/uniqueInfo/static/js/main.27da131e.chunk.js",
+    "main.js.map": "/uniqueInfo/static/js/main.27da131e.chunk.js.map",
     "runtime-main.js": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js",
     "runtime-main.js.map": "/uniqueInfo/static/js/runtime-main.b62c2d0b.js.map",
     "static/css/2.150d169a.chunk.css": "/uniqueInfo/static/css/2.150d169a.chunk.css",
@@ -10,17 +10,24 @@
     "static/js/2.a3ae9832.chunk.js.map": "/uniqueInfo/static/js/2.a3ae9832.chunk.js.map",
     "index.html": "/uniqueInfo/index.html",
     "static/css/2.150d169a.chunk.css.map": "/uniqueInfo/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c9786bac.chunk.css.map": "/uniqueInfo/static/css/main.c9786bac.chunk.css.map",
+    "static/css/main.904ef49c.chunk.css.map": "/uniqueInfo/static/css/main.904ef49c.chunk.css.map",
     "static/js/2.a3ae9832.chunk.js.LICENSE.txt": "/uniqueInfo/static/js/2.a3ae9832.chunk.js.LICENSE.txt",
     "static/media/Apple-1.0592f859.png": "/uniqueInfo/static/media/Apple-1.0592f859.png",
     "static/media/Apple-3.fcb2e679.jpg": "/uniqueInfo/static/media/Apple-3.fcb2e679.jpg",
+    "static/media/apple-1.697f08bd.png": "/uniqueInfo/static/media/apple-1.697f08bd.png",
     "static/media/apple.df881029.png": "/uniqueInfo/static/media/apple.df881029.png",
+    "static/media/asus-1.cdb066d7.png": "/uniqueInfo/static/media/asus-1.cdb066d7.png",
+    "static/media/asus-2.b7665b26.png": "/uniqueInfo/static/media/asus-2.b7665b26.png",
     "static/media/asus.cfa619ec.png": "/uniqueInfo/static/media/asus.cfa619ec.png",
     "static/media/cpu-2.07b351a0.jpg": "/uniqueInfo/static/media/cpu-2.07b351a0.jpg",
     "static/media/dell.def93235.png": "/uniqueInfo/static/media/dell.def93235.png",
+    "static/media/hp-1.f46e8f79.png": "/uniqueInfo/static/media/hp-1.f46e8f79.png",
+    "static/media/hp-2.dd5ae0d4.png": "/uniqueInfo/static/media/hp-2.dd5ae0d4.png",
     "static/media/hp-3.3f9b2ca4.jpg": "/uniqueInfo/static/media/hp-3.3f9b2ca4.jpg",
     "static/media/hp.e6aeb265.png": "/uniqueInfo/static/media/hp.e6aeb265.png",
     "static/media/keyboard-4.56ac65b0.jpg": "/uniqueInfo/static/media/keyboard-4.56ac65b0.jpg",
+    "static/media/lenovo-1.3d97a9ff.png": "/uniqueInfo/static/media/lenovo-1.3d97a9ff.png",
+    "static/media/lenovo-2.8dba394f.png": "/uniqueInfo/static/media/lenovo-2.8dba394f.png",
     "static/media/lenovo.0933a675.png": "/uniqueInfo/static/media/lenovo.0933a675.png",
     "static/media/mouse-4.508fcd60.jpg": "/uniqueInfo/static/media/mouse-4.508fcd60.jpg"
   },
@@ -28,7 +35,7 @@
     "static/js/runtime-main.b62c2d0b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.a3ae9832.chunk.js",
-    "static/css/main.c9786bac.chunk.css",
-    "static/js/main.31cbb440.chunk.js"
+    "static/css/main.904ef49c.chunk.css",
+    "static/js/main.27da131e.chunk.js"
   ]
 }
