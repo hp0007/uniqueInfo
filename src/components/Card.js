@@ -1,6 +1,5 @@
 import React from 'react'
 import Button from '../components/Button'
-import Apple from '../images/laptops/Apple-1.png'
 
 
 const Card = (props) => {

@@ -19,27 +19,27 @@ const Header = () => {
         {
             id:1,
             name:'Desktop',
-            path:'/'
+            path:'/uniqueinfo'
         },
         {
             id:2,
             name:'Laptops',
-            path:'/'
+            path:'/uniqueinfo'
         },
         {
             id:3,
             name:'About',
-            path:'/'
+            path:'/uniqueinfo'
         },
         {
             id:4,
             name:'Services',
-            path:'/'
+            path:'/uniqueinfo'
         },
         {
             id:5,
             name:'Contact',
-            path:'/'
+            path:'/uniqueinfo'
         }
     ]
 
