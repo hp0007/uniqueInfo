@@ -81,30 +81,30 @@ const Home = () => {
         <div className="container-fluid products">
                     <BackText text='Smile' color='white'/>    
                     <div className="container">
-                        <Heading title='Categories' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#fff'/>
+                        <Heading title='Categories' subTitle='Don’t Miss Out On All' color='#fff'/>
                         <div className="row">            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
-                                    <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Sub Title'/>                               
+                                    <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Wireless & Wried'/>                               
                             </div>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                            
-                                <SimpleCard icon={mouse} title='Mouse' subTitle='Sub Title'/>
+                                <SimpleCard icon={mouse} title='Mouse' subTitle='Wireless & Wried'/>
                                 
                             </div>               
                         </div>
                         <div className="row"> 
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
-                                    <SimpleCard icon={cpu} title='CPU' subTitle='Sub Title'/>                               
+                                    <SimpleCard icon={cpu} title='CPU' subTitle='New assembled and old'/>                               
                             </div>            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
-                                    <SimpleCard icon={headphone} title='Headphones' subTitle='Sub Title'/>                        
+                                    <SimpleCard icon={headphone} title='Headphones' subTitle='Wireless & Wried'/>                        
                             </div>             
                         </div>
                         <div className="row">            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
-                                    <SimpleCard icon={cctv} title='CCTV Camera' subTitle='Sub Title'/>                                
+                                    <SimpleCard icon={cctv} title='CCTV Camera' subTitle='All Types'/>                                
                             </div>                           
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                        
-                                    <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='Sub Title'/>                               
+                                    <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='With very good condition'/>                               
                             </div>                
                         </div>
                     </div>
@@ -116,7 +116,7 @@ const Home = () => {
         <BackText text='New' color='black'/>    
         <div className='new-arrive'>        
             <div className='container'>
-            <Heading title='New Arrival' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#000'/>
+            <Heading title='New Arrival' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
                 <Cards datafirst={cardContent.newArri}/>                               
             </div>
         </div>
@@ -125,7 +125,7 @@ const Home = () => {
         <BackText text='Offers' color='black'/>    
         <div className="best-offer">
             <div className="container">
-                <Heading title='Offered Products' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#000'/>
+                <Heading title='Offered Products' subTitle='Flash Sale! 30% off tonight' color='#000'/>
             </div>
             <div className="container-fluid">
                 <div className="row text-center">
@@ -167,7 +167,7 @@ const Home = () => {
         <BackText text='Brands' color='black'/> 
         <div className="explore-top">
             <div className="container">
-                <Heading title='EXPLORE TOP BRANDS' subTitle='Lorem ipsum dolor sit amet consectetur adipisicing elit.' color='#000'/>
+                <Heading title='EXPLORE TOP BRANDS' subTitle='Save up to 20% with top brands' color='#000'/>
             </div>
             <div className="container-fluid">
                 <div className="row">

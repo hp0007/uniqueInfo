@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <p>Get In Touch</p>
                         <div className="content d-flex">
-                            <Input typ="email"  place="Enter your email address"/>
+                            <Input typ="email"  place="Enter your email "/>
                             <Button text='Send'/>
                         </div>
                     </div>
