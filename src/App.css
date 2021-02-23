@@ -284,11 +284,11 @@ body{
   cursor: pointer;
 }
 .best-offer .container-fluid .overlay h4{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .best-offer .container-fluid .overlay p{
   width: 40%;
-  font-size:1.2rem;
+  font-size:1rem;
 }
 
 /* explore-top */

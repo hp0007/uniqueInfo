@@ -116,7 +116,7 @@ const Home = () => {
         <BackText text='New' color='black'/>    
         <div className='new-arrive'>        
             <div className='container'>
-            <Heading title='New Arrival' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
+            <Heading title='New Arrivals' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
                 <Cards datafirst={cardContent.newArri}/>                               
             </div>
         </div>
@@ -133,7 +133,7 @@ const Home = () => {
                         <OfferCard image={laptop1}/>
                         <div className="overlay">
                             <h4>Hp notebook 15inch</h4>
-                            <p>R9 processer,16 GB RAM</p>
+                            <p>Ryzen 7 5800X processer,16 GB RAM</p>
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
@@ -148,15 +148,15 @@ const Home = () => {
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={mouse1}/>
                         <div className="overlay">
-                            <h4>Razer monga</h4>
-                            <p>With slient click</p>
+                            <h4>Razer DeathAdder V2 Pro</h4>
+                            <p>Wireless Gaming Mouse with Best-in-class Ergonomics</p>
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={cpu1}/>
                         <div className="overlay">
-                            <h4>Assemble CPU with Rizen and intel</h4>
-                            <p>With Rizen and intel processer with AMD 8GB highspeed Graphics Card </p>
+                            <h4>Assemble CPU with Ryzen or intel</h4>
+                            <p>With Ryzen or intel processer with AMD 8GB highspeed Graphics Card </p>
                         </div>
                     </div>
                 </div>
