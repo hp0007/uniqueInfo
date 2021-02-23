@@ -43,7 +43,7 @@
         letter-spacing: 2px;
     }
     .navbar-collapse.show{
-        height: 26rem;
+        height: 100%;
     }
     
     .navbar span{
@@ -81,22 +81,24 @@
         height: 100%;
         width: 100%;
         padding: 0%;
-        margin-top: 10%;
-        left: 50%;
-        right: 50%;
-        transform: translate(-50%,-50%);
+        padding: 10%;
+        left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         position: absolute;
     }
     .container-home .container-fluid .start h4{
         font-size: 2rem;
-        width: 110%;
+        width: 100%;
     }
     .container-home .container-fluid .start h3{
         font-size: 2rem;
-        width: 140%;
+        width: 100%;
     }
     .container-home .container-fluid .start p{
-        width: 110%;
+        width: 100%;
     }
     .container-home .container-fluid .end{
         width: 100%;
@@ -230,7 +232,7 @@
         letter-spacing: 2px;
     }
     .navbar-collapse.show{
-        height: 26rem;
+        height: 100%;
     }
     
     .navbar span{

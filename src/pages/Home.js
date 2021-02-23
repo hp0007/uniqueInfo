@@ -63,13 +63,13 @@ const Home = () => {
             <div className='right'></div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 start"> 
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 start"> 
                             <h4>Apple introduces 16-inch MacBook Pro</h4>
                             <h3>Stunnigly small.<br/>Masterfully Designed.</h3>
                             <p>All-New MacBook Pro Features an Immersive 16-Inch Retina Display, Up to 80 Percent Faster Performance and a New Magic Keyboard </p>
                             <button className='btn'>Lern More<BsArrowRight className='arrow' /></button>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 end">
+                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 end">
                             <img src={main_img} />                 
                     </div>
                 </div>
