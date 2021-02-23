@@ -9,6 +9,193 @@
     --font_weight_bold:700;
   }
 
+  @media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+        padding: 3% 5%;
+        background-color: var(--white);
+    }
+    .navbar.sticky{
+        background-color: var(--white);
+    }
+    .navbar-brand{
+        color:var(--primary_color) ;
+        border: none;
+    }
+    .navbar-nav{
+        margin: 0;
+        padding-top: 12%;
+        text-align: center;
+    }
+    .navbar-nav .nav-item{
+        margin: 0;
+    }
+    .navbar-nav .nav-link{
+        color: var(--primary_color);
+        border: none;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        font-weight: var(--font_weight_medium);
+        letter-spacing: 2px;
+    }
+    .navbar-collapse.show{
+        height: 26rem;
+    }
+    
+    .navbar span{
+        width: 2.4rem;
+        height: 2.2rem;
+        background-color: white;
+        color: #000;
+    }
+    .navbar-brand{
+        font-size: 1.4rem;
+    }
+    .form-inline .form-control{
+        width: 86%;
+    }
+    .form-inline .form-control::placeholder{
+        font-size: 1rem;
+    }
+    .account{
+        color: var(--primary_color) !important;
+        margin-left: 4%;
+    }
+    .container-home{
+        height: 100vh;
+        width: 100%;
+        /* background-color: var(--primary_color); */
+    }
+    .container-home .left{
+        width: 100%;
+        height: 100vh;
+    }
+    .container-home .right{
+        display: none;
+    }
+    .container-home .container-fluid .start{
+        height: 100%;
+        width: 100%;
+        padding: 0%;
+        margin-top: 10%;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+    }
+    .container-home .container-fluid .start h4{
+        font-size: 2rem;
+        width: 110%;
+    }
+    .container-home .container-fluid .start h3{
+        font-size: 2rem;
+        width: 140%;
+    }
+    .container-home .container-fluid .start p{
+        width: 110%;
+    }
+    .container-home .container-fluid .end{
+        width: 100%;
+        margin-top: -45%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%,-50%);
+        height: 100%;
+    }
+    .container-home .container-fluid img{
+        width: 35rem;
+        display: block;
+        margin: auto;
+    }
+    .backtext h1{
+        font-size: 6rem;
+        margin-top: 10%;
+    }
+
+    .categories{
+        display: block;
+        border: none;
+    }
+    .categories .container-fluid{
+        padding-top: 9%;
+    }
+    .heading{
+        padding-top: 18%;
+    }
+    .heading h4{
+        font-size: 1.2rem;
+    }
+    .heading p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .categories .card-body{
+        padding: 7% 3%;
+    }
+    .categories .card h5{
+        font-size: 1rem;
+    }
+    .categories .card h6{
+        font-size: 0.8rem;
+    }
+    .categories .card i{
+        font-size: 1.5rem;
+        padding: 7% 5%;
+    }
+    .new-arrive .card{
+        height: 100%;
+        margin: 0;
+    }
+    
+    .new-arrive .card .card-title{
+        font-size: 1.1rem;
+        height: 3rem;
+        line-height: 1.2rem;
+    }
+    .new-arrive .card .card-text{
+        font-size: 0.9rem;
+        height: 5.5rem;
+    }
+    .new-arrive .card .btn{
+        width: 7rem;
+        font-size: 0.9rem;
+    }
+    .best-offer .container-fluid .row{
+        height: 23rem;
+    }
+    .best-offer .container-fluid .overlay h4{
+        font-size: 1rem;
+        line-height: 0.7rem;
+    }
+
+    .best-offer .container-fluid .overlay p{
+        font-size: 0.7rem;
+        width: 90%;
+        line-height: 1rem;
+    }
+    .footer .container h4{
+        font-size: 1.4rem;
+    }
+    .footer .container p{
+        font-size: 1rem;
+    }
+    .footer .container i{
+        padding-left: 4%;
+    }
+    .footer .container input{
+        padding: 2% 2%;
+        width: 100%;
+        /* font-size: 1rem; */
+    }
+    .footer .container input::placeholder{
+        font-size: 0.8rem;
+    }
+}
 @media screen and (min-width:1900px){
     .container-home .container .start h4{
         font-size: 3rem;
