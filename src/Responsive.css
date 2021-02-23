@@ -9,7 +9,8 @@
     --font_weight_bold:700;
   }
 
-  @media screen and (max-width:800px){
+
+  @media screen and (min-width: 600px) and (max-width: 1023px) {
     body{
         overflow-x: hidden;
     }
@@ -108,7 +109,7 @@
         height: 100%;
     }
     .container-home .container-fluid img{
-        width: 35rem;
+        width: 33rem;
         display: block;
         margin: auto;
     }
@@ -194,17 +195,6 @@
     }
     .footer .container input::placeholder{
         font-size: 0.8rem;
-    }
-}
-@media screen and (min-width:1900px){
-    .container-home .container .start h4{
-        font-size: 3rem;
-    }
-    .categories.container{
-        padding-bottom: 15%;
-    }
-    .heading{
-        padding: 7% 0 7% 4%;
     }
 }
 @media screen and (max-width:430px){
@@ -385,6 +375,7 @@
         font-size: 0.8rem;
     }
 }
+
 @media screen and (max-width:350px){
     .navbar{
         width: 100%;
@@ -419,5 +410,16 @@
     }
     .categories .card{
         height: 100%;
+    }
+}
+@media screen and (min-width:1900px){
+    .container-home .container .start h4{
+        font-size: 3rem;
+    }
+    .categories.container{
+        padding-bottom: 15%;
+    }
+    .heading{
+        padding: 7% 0 7% 4%;
     }
 }
