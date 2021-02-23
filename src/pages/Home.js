@@ -77,11 +77,12 @@ const Home = () => {
         </div>
 
         {/* Products Section */}
+        <BackText text='Smile' color='white'/>    
         <div className="categories">
-        <div className="container-fluid products">
-                    <BackText text='Smile' color='white'/>    
-                    <div className="container">
+                    <div className="container-fluid">
                         <Heading title='Categories' subTitle='Don’t Miss Out On All' color='#fff'/>
+                    </div>
+                    <div className="container">
                         <div className="row">            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
                                     <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Wireless & Wried'/>                               
@@ -107,16 +108,16 @@ const Home = () => {
                                     <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='With very good condition'/>                               
                             </div>                
                         </div>
-                    </div>
-                    
-            </div>
+                    </div>                                
             </div>
 
         {/* New Arrival Section */}
         <BackText text='New' color='black'/>    
-        <div className='new-arrive'>        
+        <div className='new-arrive'>   
+            <div className="container-fluid">
+                <Heading title='New Arrivals' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
+            </div>     
             <div className='container'>
-            <Heading title='New Arrivals' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
                 <Cards datafirst={cardContent.newArri}/>                               
             </div>
         </div>
@@ -124,7 +125,7 @@ const Home = () => {
         {/* Best Offer */}
         <BackText text='Offers' color='black'/>    
         <div className="best-offer">
-            <div className="container">
+            <div className="container-fluid">
                 <Heading title='Offered Products' subTitle='Flash Sale! 30% off tonight' color='#000'/>
             </div>
             <div className="container-fluid">
@@ -166,10 +167,10 @@ const Home = () => {
         {/* EXPLORE TOP BRANDS */}
         <BackText text='Brands' color='black'/> 
         <div className="explore-top">
-            <div className="container">
+            <div className="container-fluid">
                 <Heading title='EXPLORE TOP BRANDS' subTitle='Save up to 20% with top brands' color='#000'/>
             </div>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
                         <img src={apple}/>                       

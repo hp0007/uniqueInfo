@@ -86,6 +86,7 @@ body{
 /* Banner */
 
 .container-home{
+  height: 100vh;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -169,7 +170,9 @@ body{
   width: 100%;
 }
 .heading{
-  padding: 15% 0 7% 0;
+  position: relative;
+  width: 100%;
+  padding: 15% 0 7% 3%;
 }
 .heading h4{
   line-height: 0rem;
@@ -180,25 +183,25 @@ body{
   line-height: 0.6rem;
   font-size: 1.1rem;
 }
-.products{
+.categories{
   background-color: var(--primary_color);
   height: 100%;
 }
-.products .container{
+.categories .container{
     padding-bottom: 10%;
 }
-.products .card{
+.categories .card{
   height: 8rem;
   border: none;
   margin-bottom: 2%;
   border-radius: 10px;
   padding: 3% 10%;
 }
-.products .card i{
+.categories .card i{
   font-size: 3rem;
   padding: 1% 0;
 }
-.products .card:hover{
+.categories .card:hover{
   cursor: pointer;
 }
 
@@ -294,7 +297,7 @@ body{
 /* explore-top */
 
 
-.explore-top .container-fluid img{
+.explore-top .container img{
   height: 100%;
   padding: 10% 30% 0% 30%;
   background-size: 100% 100%;

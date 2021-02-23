@@ -13,8 +13,14 @@
     .container-home .container .start h4{
         font-size: 3rem;
     }
+    .categories.container{
+        padding-bottom: 15%;
+    }
+    .heading{
+        padding: 7% 0 7% 4%;
+    }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:430px){
     body{
         overflow-x: hidden;
     }
@@ -72,11 +78,13 @@
     .container-home{
         height: 100%;
         width: 100%;
-        /* margin: 0;
-        padding: 0; */
+
+        /* padding-bottom: 10%; */
+        background-color: var(--primary_color);
     }
     .container-home .left{
         width: 100%;
+        height: 100vh;
     }
     .container-home .right{
         display: none;
@@ -108,9 +116,18 @@
     }
     .backtext h1{
         font-size: 6rem;
+        margin-top: 10%;
+    }
+
+    .categories{
+        display: block;
+        border: none;
     }
     .categories .container-fluid{
-        padding-top: 20%;
+        padding-top: 15%;
+    }
+    .heading{
+        padding-top: 30%;
     }
     .heading h4{
         font-size: 1.2rem;
@@ -119,20 +136,18 @@
         font-size: 0.8rem;
         line-height: 1rem;
     }
-    .products .card-body{
-        padding-top: 12%;
-        padding-bottom: 12%;
+    .categories .card-body{
+        padding: 7% 3%;
     }
-    .products .card h5{
+    .categories .card h5{
         font-size: 1rem;
     }
-    .products .card h6{
+    .categories .card h6{
         font-size: 0.8rem;
     }
-    .products .card i{
+    .categories .card i{
         font-size: 1.5rem;
-        padding-top: 12%;
-        padding-bottom: 12%;
+        padding: 7% 5%;
     }
     .new-arrive .card{
         height: 100%;
