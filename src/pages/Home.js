@@ -35,8 +35,10 @@ import pc_5 from '../images/laptops/laptop/lenovo-2.png'
 import pc_6 from '../images/laptops/laptop/asus-2.png'
 import pc_7 from '../images/laptops/laptop/hp-2.png'
 import pc_8 from '../images/laptops/laptop/apple-1.png'
-
-
+import Roll from 'react-reveal/Roll';
+import Zoom from 'react-reveal/Zoom'
+import Rotate from 'react-reveal/Rotate';
+import Bounce from 'react-reveal/Bounce';
  
 
 const Home = () => {
@@ -57,21 +59,25 @@ const Home = () => {
     return (
         <>
         {/* Banner Section */}
-        <Header />
+        <Header />  
         <div className='container-home'>
             <div className='left'></div>
             <div className='right'></div>
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid" >
+                <div className="row" style={{overflow:'hidden'}}>
+                <Roll left>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-6 start"> 
                             <h4>Apple introduces 16-inch MacBook Pro</h4>
                             <h3>Stunnigly small.<br/>Masterfully Designed.</h3>
                             <p>All-New MacBook Pro Features an Immersive 16-Inch Retina Display, Up to 80 Percent Faster Performance and a New Magic Keyboard </p>
                             <button className='btn'>Lern More<BsArrowRight className='arrow' /></button>
                     </div>
+                </Roll>
+                <Roll right>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-6 end">
                             <img src={main_img} />                 
                     </div>
+                </Roll>
                 </div>
             </div>
         </div>
@@ -83,7 +89,8 @@ const Home = () => {
                         <Heading title='Categories' subTitle='Don’t Miss Out On All' color='#fff'/>
                     </div>
                     <div className="container">
-                        <div className="row">            
+                        <div className="row" style={{overflow:'hidden'}}>    
+                        <Zoom left>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
                                     <SimpleCard icon = {keyboard} title='Keyboards' subTitle='Wireless & Wried'/>                               
                             </div>
@@ -91,22 +98,28 @@ const Home = () => {
                                 <SimpleCard icon={mouse} title='Mouse' subTitle='Wireless & Wried'/>
                                 
                             </div>               
+                        </Zoom>        
                         </div>
-                        <div className="row"> 
+                        
+                        <div className="row" style={{overflow:'hidden'}}> 
+                        <Zoom right>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
                                     <SimpleCard icon={cpu} title='CPU' subTitle='New assembled and old'/>                               
                             </div>            
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
                                     <SimpleCard icon={headphone} title='Headphones' subTitle='Wireless & Wried'/>                        
-                            </div>             
+                            </div> 
+                            </Zoom>            
                         </div>
-                        <div className="row">            
+                        <div className="row" style={{overflow:'hidden'}}>            
+                        <Zoom left>
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                                
                                     <SimpleCard icon={cctv} title='CCTV Camera' subTitle='All Types'/>                                
                             </div>                           
                             <div className="col-12 col-sm-12 col-md-6 col-lg-6">                        
                                     <SimpleCard icon={laptop} title='Refurbished laptop' subTitle='With very good condition'/>                               
-                            </div>                
+                            </div> 
+                            </Zoom>               
                         </div>
                     </div>                                
             </div>
@@ -117,7 +130,7 @@ const Home = () => {
             <div className="container-fluid">
                 <Heading title='New Arrivals' subTitle='We’re crushing on new arrivals + 30% off all full price!' color='#000'/>
             </div>     
-            <div className='container'>
+            <div className='container-fluid'>
                 <Cards datafirst={cardContent.newArri}/>                               
             </div>
         </div>
@@ -129,35 +142,43 @@ const Home = () => {
                 <Heading title='Offered Products' subTitle='Flash Sale! 30% off tonight' color='#000'/>
             </div>
             <div className="container-fluid">
-                <div className="row text-center">
+                <div className="row text-center" style={{overflow:'hidden'}} >
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={laptop1}/>
                         <div className="overlay">
+                            <Rotate>
                             <h4>Hp notebook 15inch</h4>
                             <p>Ryzen 7 5800X processer,16 GB RAM</p>
+                            </Rotate>
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={keyboard1}/>
                         <div className="overlay">
+                            <Rotate>
                             <h4>Hp lightWeight Keyboard</h4>
                             <p>with led light</p>
+                            </Rotate>
                         </div>
                     </div>
                 </div>
-                <div className="row text-center">
+                <div className="row text-center" style={{overflow:'hidden'}}>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={mouse1}/>
                         <div className="overlay">
+                            <Rotate>
                             <h4>Razer DeathAdder V2 Pro</h4>
                             <p>Wireless Gaming Mouse with Best-in-class Ergonomics</p>
+                            </Rotate>
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-6 col-lg-6">
                         <OfferCard image={cpu1}/>
                         <div className="overlay">
+                            <Rotate>
                             <h4>Assemble CPU with Ryzen or intel</h4>
                             <p>With Ryzen or intel processer with AMD 8GB highspeed Graphics Card </p>
+                            </Rotate>
                         </div>
                     </div>
                 </div>
@@ -172,31 +193,49 @@ const Home = () => {
             </div>
             <div className="container">
                 <div className="row">
+                    <Bounce>
                     <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
                         <img src={apple}/>                       
                     </div>
+                    </Bounce>
+                    <Bounce>
                     <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
                         <img src={hp}/>                       
                     </div>
+                    </Bounce>
+                    <Bounce>
                     <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
                         <img src={dell}/>                      
                     </div>
+                    </Bounce>
+                    <Bounce>
                     <div className="col-6 col-sm-6 col-md-3 col-lg-3">                       
                         <img src={asus}/>                       
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
-                        <img src={lenovo}/>                       
+                    </Bounce>
                     </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
-                        <img src={philips}/>                        
-                    </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
-                        <img src={jbl}/>                        
-                    </div>
-                    <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
-                        <img src={sony}/>                        
-                    </div>
-                </div>
+                    <div className="row">
+                        <Bounce>
+                        <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                            <img src={lenovo}/>                       
+                        </div>
+                        </Bounce>
+                        <Bounce>
+                        <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                            <img src={philips}/>                        
+                        </div>
+                        </Bounce>
+                        <Bounce>
+                        <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                            <img src={jbl}/>                        
+                        </div>
+                        </Bounce>
+                        <Bounce>
+                        <div className="col-6 col-sm-6 col-md-3 col-lg-3">                        
+                            <img src={sony}/>                        
+                        </div>
+                        </Bounce>
+                    </div>  
             </div>
         </div>
         <Slider />

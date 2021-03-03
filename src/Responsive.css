@@ -302,6 +302,9 @@
         display: block;
         border: none;
     }
+    .categories .card{
+        height: 6.5rem;
+    }
     .categories .container-fluid{
         padding-top: 15%;
     }
