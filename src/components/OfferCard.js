@@ -1,12 +1,10 @@
-import React from 'react'
-import Zoom from 'react-reveal/Zoom';
-
+import React from "react";
 const OfferCard = (props) => {
-    return (
-        <div >        
-            <img src={props.image}/>                        
-        </div>
-    )
-}
+  return (
+    <div>
+      <img src={props.image} />
+    </div>
+  );
+};
 
-export default OfferCard
+export default OfferCard;

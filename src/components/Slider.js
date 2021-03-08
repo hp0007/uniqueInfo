@@ -1,12 +1,7 @@
-import React from 'react'
-import Card from '../components/Card'
+import React from "react";
 
 const Slider = () => {
-    return (
-        <div className='container'>
-        
-        </div>
-    )
-}
+  return <div className="container"></div>;
+};
 
-export default Slider
+export default Slider;
